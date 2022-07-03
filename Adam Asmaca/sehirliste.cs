@@ -42,10 +42,11 @@ namespace Adam_Asmaca
             sehir.Add("DENİZLİ");
             sehir.Add("BİLECİK");
             sehir.Add("HAKKARİ");
-
+            
 
             Random rastgele = new Random();
             int sayi = rastgele.Next(0, 29);
+
 
             object rastgelesehir = sehir[sayi];
             return rastgelesehir;
