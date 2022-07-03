@@ -47,6 +47,7 @@ namespace Adam_Asmaca
             Random rastgele = new Random();
             int sayi = rastgele.Next(0, 29);
 
+
             object rastgelesehir = sehir[sayi];
             return rastgelesehir;
 
